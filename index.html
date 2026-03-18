@@ -116,7 +116,10 @@
           <h3>${e.title}</h3>
           <span class="date">${e.dateRange}</span>
         </div>
-        <p class="company">${e.company}</p>
+        <div class="entry-subheader">
+          <p class="company">${e.company}</p>
+          <span class="location">${e.location}</span>
+        </div>
         <ul>${e.bullets.map(b => `<li>${b}</li>`).join("")}</ul>
       </div>`;
   });
@@ -130,7 +133,10 @@
           <h3>${e.degree}</h3>
           <span class="date">${e.dateRange}</span>
         </div>
-        <p class="company">${e.school}</p>
+        <div class="entry-subheader">
+          <p class="company">${e.school}</p>
+          <span class="location">${e.location}</span>
+        </div>
         <ul>${e.achievements.map(a => `<li>${a}</li>`).join("")}</ul>
       </div>`;
   });
