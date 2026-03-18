@@ -23,7 +23,7 @@ const siteConfig = {
       description:
         "Quickly visualize employee sentiment and engagement trends across the organization using AI-driven analytics.",
       link: "#",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["People Analytics", "Employee Listening Systems", "NLP for HR Insights","Data Visualization"],
     },
   ],
   experience: [
