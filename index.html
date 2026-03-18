@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title"></title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <span class="nav-name" id="nav-name"></span>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+
+  <section id="hero">
+    <h1 id="hero-name"></h1>
+    <p class="title" id="hero-title"></p>
+    <p class="about" id="hero-about"></p>
+    <div class="social-links" id="social-links"></div>
+  </section>
+
+  <section id="about">
+    <h2>Skills</h2>
+    <div class="skill-tags" id="skills"></div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div id="projects-list"></div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div id="experience-list"></div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div id="education-list"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p id="footer-text"></p>
+</footer>
+
+<script src="config.js"></script>
+<script>
+  const c = siteConfig;
+
+  document.getElementById("page-title").textContent = c.description;
+  document.getElementById("nav-name").textContent = c.name;
+  document.getElementById("hero-name").textContent = c.name;
+  document.getElementById("hero-title").textContent = c.title;
+  document.getElementById("hero-about").textContent = c.aboutMe;
+  document.getElementById("footer-text").textContent =
+    `© ${new Date().getFullYear()} ${c.name}`;
+
+  // Social links
+  const socials = [
+    { label: "Email", href: `mailto:${c.social.email}` },
+    { label: "LinkedIn", href: c.social.linkedin },
+    { label: "GitHub", href: c.social.github },
+  ];
+  const socialEl = document.getElementById("social-links");
+  socials.forEach(({ label, href }) => {
+    const a = document.createElement("a");
+    a.href = href;
+    a.textContent = label;
+    if (label !== "Email") a.target = "_blank";
+    socialEl.appendChild(a);
+  });
+
+  // Skills
+  const skillsEl = document.getElementById("skills");
+  c.skills.forEach(s => {
+    const span = document.createElement("span");
+    span.className = "skill-tag";
+    span.textContent = s;
+    skillsEl.appendChild(span);
+  });
+
+  // Projects
+  const projectsEl = document.getElementById("projects-list");
+  c.projects.forEach(p => {
+    projectsEl.innerHTML += `
+      <div class="card">
+        <h3>${p.name}</h3>
+        <p>${p.description}</p>
+        <div class="skill-tags" style="margin-bottom:12px">
+          ${p.skills.map(s => `<span class="skill-tag">${s}</span>`).join("")}
+        </div>
+        <a class="card-link" href="${p.link}" target="_blank">View Project →</a>
+      </div>`;
+  });
+
+  // Experience
+  const expEl = document.getElementById("experience-list");
+  c.experience.forEach(e => {
+    expEl.innerHTML += `
+      <div class="entry">
+        <div class="entry-header">
+          <h3>${e.title}</h3>
+          <span class="date">${e.dateRange}</span>
+        </div>
+        <p class="company">${e.company}</p>
+        <ul>${e.bullets.map(b => `<li>${b}</li>`).join("")}</ul>
+      </div>`;
+  });
+
+  // Education
+  const eduEl = document.getElementById("education-list");
+  c.education.forEach(e => {
+    eduEl.innerHTML += `
+      <div class="entry">
+        <div class="entry-header">
+          <h3>${e.degree}</h3>
+          <span class="date">${e.dateRange}</span>
+        </div>
+        <p class="company">${e.school}</p>
+        <ul>${e.achievements.map(a => `<li>${a}</li>`).join("")}</ul>
+      </div>`;
+  });
+</script>
+
+</body>
+</html>
