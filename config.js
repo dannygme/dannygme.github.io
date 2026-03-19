@@ -22,7 +22,7 @@ const siteConfig = {
       name: "Survey Jam",
       description:
         "An open-source survey platform to build, share, and analyze custom surveys. Features AI-powered sentiment analysis and theme extraction. No database or accounts required. Data stays with the user",
-      link: "link: "https://survey-jam.streamlit.app",
+      link: "https://survey-jam.streamlit.app",
       skills: ["Python", "Streamlit", "NLP", "HuggingFace Transformers", "Plotly", "People Analytics", "Data Visualization"],
     },
   ],
