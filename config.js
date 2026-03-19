@@ -21,9 +21,9 @@ const siteConfig = {
     {
       name: "Employee Voice Dashboard",
       description:
-        "Quickly visualize employee sentiment and engagement trends across the organization using AI-driven analytics.",
+        "An open-source survey platform to build, share, and analyze custom surveys. Features AI-powered sentiment analysis and theme extraction. No database or accounts required. Data stays with the user",
       link: "#",
-      skills: ["People Analytics", "Employee Listening Systems", "NLP for HR Insights","Data Visualization"],
+      skills: ["Python", "Streamlit", "NLP", "HuggingFace Transformers", "Plotly", "People Analytics", "Data Visualization"],
     },
   ],
   experience: [
