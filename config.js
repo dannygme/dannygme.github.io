@@ -107,7 +107,7 @@ const siteConfig = {
       degree: "BA in Psychology",
       location: "New Brunswick, NJ",
       dateRange: "Sep 2011 - May 2015",
-      gpa: "3.5/4.0",
+      gpa: "3.2/4.0",
       achievements: [],
     }
   ]
