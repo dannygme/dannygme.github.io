@@ -35,7 +35,7 @@ const siteConfig = {
       location: "Taipei, TW",
       dateRange: "Dec 2024 - Present",
       bullets: [
-        "Designed operational readiness frameworks establishing competency standards for aviation assessments.",
+        "Designed operational readiness and competency standards for aviation.",
       ],
     },
     {
