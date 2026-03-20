@@ -34,7 +34,7 @@ const siteConfig = {
       location: "Taipei, TW",
       dateRange: "Dec 2024 - Present",
       bullets: [
-        "Designed operational readiness and competency standards for aviation, reducinh competency gaps by 80%.",
+        "Reduced aviation readiness gaps by 80% through standardized competency frameworks.",
       ],
     },
     {
