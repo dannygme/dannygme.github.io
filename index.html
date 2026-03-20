@@ -125,21 +125,24 @@
   });
 
   // Education
-  const eduEl = document.getElementById("education-list");
-  c.education.forEach(e => {
-    eduEl.innerHTML += `
-      <div class="entry">
-        <div class="entry-header">
-          <h3>${e.degree}</h3>
-          <span class="date">${e.dateRange}</span>
-        </div>
-        <div class="entry-subheader">
-          <p class="company">${e.school}</p>
-          <span class="location">${e.location}</span>
-        </div>
-        <ul>${e.achievements.map(a => `<li>${a}</li>`).join("")}</ul>
-      </div>`;
-  });
+const eduEl = document.getElementById("education-list");
+c.education.forEach(e => {
+  eduEl.innerHTML += `
+    <div class="entry">
+      <div class="entry-header">
+        <h3>${e.degree}</h3>
+        <span class="date">${e.dateRange}</span>
+      </div>
+      <div class="entry-subheader">
+        <p class="company">${e.school}</p>
+        <span class="location">${e.location}</span>
+      </div>
+      <ul>
+        ${e.gpa ? `<li>GPA: ${e.gpa}</li>` : ""}
+        ${e.achievements.map(a => `<li>${a}</li>`).join("")}
+      </ul>
+    </div>`;
+});
 </script>
 
 </body>
