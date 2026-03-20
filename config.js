@@ -68,7 +68,7 @@ const siteConfig = {
       location: "Portland, ME",
       dateRange: "Nov 2019 - Nov 2021",
       bullets: [
-        "Managed 150+ client accounts and generated $200k in premium revenue through full-cycle strategic sales.",
+        "Managed 150+ client accounts and generated $200k in premium revenue through full-cycle sales.",
       ],
     },
     {
