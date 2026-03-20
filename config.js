@@ -17,7 +17,6 @@ const siteConfig = {
     "Workflow Automation",
     "Global Scaling",
     "Strategic Leadership",
-    "Change Management",
   ],
   projects: [
     {
