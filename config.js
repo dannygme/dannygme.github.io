@@ -106,7 +106,7 @@ const siteConfig = {
       location: "New Brunswick, NJ",
       dateRange: "Sep 2011 - May 2015",
       achievements: [
-        "GPA 3.5/4.0",
-      ],
-    },
-};
+        "GPA 3.5/4.0"
+      ]
+    }
+  ];
