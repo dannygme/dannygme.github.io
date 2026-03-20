@@ -1,6 +1,6 @@
 const siteConfig = {
   name: "Danny Greene",
-  title: "People Operations Strategist",
+  title: "Operations Strategist",
   description: "Portfolio website of Danny Greene",
   accentColor: "#60a5fa",
   social: {
@@ -11,11 +11,13 @@ const siteConfig = {
   aboutMe:
     "Engineering scalable workforce systems and AI-integrated HR frameworks to sustain high-performance scaling across global markets.",
   skills: [
-    "HRIS Architecture (Workday/SAP)",
-    "Workforce Analytics (Python/SQL)",
+    "HRIS Architecture (Workday/SAP/ADP)",
+    "Workforce Analytics (Python/SQL/Tableau/SPSS)",
     "AI-Augmented Ops",
+    "Workflow Automation",
     "Global Scaling",
     "Strategic Leadership",
+    "Change Management",
   ],
   projects: [
     {
