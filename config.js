@@ -9,7 +9,7 @@ const siteConfig = {
     github: "https://github.com/dannygme/",
   },
   aboutMe:
-    "Engineering scalable workforce systems and AI-integrated frameworks to drive global organizational excellence.",
+    "Engineering scalable workforce systems and AI-integrated HR frameworks to sustain high-performance scaling across global markets.",
   skills: [
     "HRIS Architecture (Workday/SAP)",
     "Workforce Analytics (Python/SQL)",
