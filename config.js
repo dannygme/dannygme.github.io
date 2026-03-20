@@ -95,9 +95,10 @@ const siteConfig = {
       degree: "MBA in International Human Resource Development",
       location: "Taipei, TW",
       dateRange: "Sep 2024 - May 2026",
+      gpa: "3.85/4.0",
       achievements: [
         "Research: MBA Thesis on international talent retention; architected end-to-end survey and modeling processes.",
-        "MOE Taiwan Scholarship recipient, GPA 3.85/4.0.",
+        "MOE Taiwan Scholarship recipient."
       ],
     },
     {
@@ -105,8 +106,8 @@ const siteConfig = {
       degree: "BA in Psychology",
       location: "New Brunswick, NJ",
       dateRange: "Sep 2011 - May 2015",
-      achievements: [
-        "GPA 3.5/4.0"
-      ]
+      gpa: "3.5/4.0",
+      achievements: [],
     }
-  ];
+  ]
+};
