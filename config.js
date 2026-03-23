@@ -18,7 +18,14 @@ const siteConfig = {
     "Global Scaling",
     "Strategic Leadership",
   ],
-  projects: [
+ projects: [
+    {
+      name: "Resonance",
+      description:
+        "A local-first resume-to-job matching system. Semantically scores resumes against job descriptions, identifies skill gaps, and discovers roles you may not have considered. No data leaves your machine. No accounts or APIs required.",
+      link: "https://resonancex.streamlit.app/",
+      skills: ["Python", "Streamlit", "NLP", "Sentence Transformers", "Scikit-learn", "HuggingFace", "Semantic Search", "Career Analytics"],
+    },
     {
       name: "Survey Jam",
       description:
