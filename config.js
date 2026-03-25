@@ -24,21 +24,21 @@ const siteConfig = {
     description:
       "Oracle-free options pricing simulator built on AMM dynamics. Features TWAP-based pricing, adversarial attack testing, liquidity provider impermanent loss analysis, and Black-Scholes comparison. Fully interactive Streamlit dashboard with real-time charts and metrics.",
     link: "https://amm-options.streamlit.app/",
-    skills: ["Python", "Streamlit", "AMM", "TWAP", "Options Pricing", "Impermanent Loss", "Adversarial Simulation", "Quantitative Finance", "Matplotlib"],
+    skills: ["Python", "AMM", "TWAP", "Options Pricing", "Impermanent Loss", "Adversarial Simulation", "Quantitative Finance", "Matplotlib"],
   },
     {
       name: "Resonance",
       description:
         "A local-first resume-to-job matching system. Semantically scores resumes against job descriptions, identifies skill gaps, and discovers roles you may not have considered. No data leaves your machine. No accounts or APIs required.",
       link: "https://resonancex.streamlit.app/",
-      skills: ["Python", "Streamlit", "NLP", "Sentence Transformers", "Scikit-learn", "HuggingFace", "Semantic Search", "Career Analytics"],
+      skills: ["Python", "NLP", "Sentence Transformers", "Scikit-learn", "HuggingFace", "Semantic Search", "Career Analytics"],
     },
     {
       name: "Survey Jam",
       description:
         "An open-source survey platform to build, share, and analyze custom surveys. Features AI-powered sentiment analysis and theme extraction. No database or accounts required. Data stays with the user.",
       link: "https://survey-jam.streamlit.app",
-      skills: ["Python", "Streamlit", "NLP", "HuggingFace Transformers", "Plotly", "People Analytics", "Data Visualization"],
+      skills: ["Python", "NLP", "HuggingFace Transformers", "Plotly", "People Analytics", "Data Visualization"],
     },
   ],
   experience: [
