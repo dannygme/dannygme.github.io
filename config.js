@@ -19,6 +19,13 @@ const siteConfig = {
     "Strategic Leadership",
   ],
  projects: [
+  {
+    name: "AMM-Options Engine",
+    description:
+      "Oracle-free options pricing simulator built on AMM dynamics. Features TWAP-based pricing, adversarial attack testing, liquidity provider impermanent loss analysis, and Black-Scholes comparison. Fully interactive Streamlit dashboard with real-time charts and metrics.",
+    link: "https://amm-options.streamlit.app/",
+    skills: ["Python", "Streamlit", "AMM", "TWAP", "Options Pricing", "Impermanent Loss", "Adversarial Simulation", "Quantitative Finance", "Matplotlib"],
+  },
     {
       name: "Resonance",
       description:
