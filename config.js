@@ -29,7 +29,7 @@ const siteConfig = {
     {
       name: "Resonance",
       description:
-        "A local-first resume-to-job matching system. Semantically scores resumes against job descriptions, identifies skill gaps, and discovers roles you may not have considered. No data leaves your machine. No accounts or APIs required.",
+        "Screen applicants or screen yourself. A local-first tool for teams to rank candidates semantically, and for job seekers to benchmark their fit. No cloud, no accounts, no data leaving your machine.",
       link: "https://resonancex.streamlit.app/",
       skills: ["Python", "NLP", "Sentence Transformers", "Scikit-learn", "HuggingFace", "Semantic Search", "Career Analytics"],
     },
